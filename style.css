@@ -1,0 +1,134 @@
+body{
+    background-color: aliceblue;
+    padding: 0px;
+    margin: 0px;
+    background-image: url(bg-img.jpeg);
+    background-size: cover;
+    background-position: center;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    font-weight: bolder;
+}
+.menu-bar{
+    background-color: lightseagreen;
+    text-align: center;
+    opacity: 85%;
+}
+.menu-bar ul{
+    display: inline-flex;
+    list-style: none;
+}
+.menu-bar ul li{
+    padding: 12px;
+    width: 120px;
+    color: azure;
+}
+.menu-bar ul li a{
+    text-decoration: none;
+    color: azure ;
+}
+.active:hover{
+    background-color:deepskyblue;
+    border-radius: 3px;
+}
+
+.menu-bar ul li:hover{
+    background-color: deepskyblue;
+    border-radius: 3px;
+}
+.menu-bar .fa{
+    margin-right: 8px;
+}
+.sub-menu-1{
+    display: none;
+}
+.menu-bar ul li:hover .sub-menu-1{
+    display: block;
+    position: absolute;
+    background-color:lightskyblue;
+    margin-top: 12px;
+    margin-left: -5px;
+}
+.menu-bar ul li:hover .sub-menu-1 ul{
+    display: block;
+    margin: 10px;
+}
+.menu-bar ul li:hover .sub-menu-1 ul li{
+    width: 150px;
+    padding: 10px;
+    border-bottom: 1px dotted #fff;
+    background: transparent;
+    border-radius: 0;
+    text-align: left;
+}
+.menu-bar ul li:hover .sub-menu-1 ul li:last-child{
+    border-bottom: none;
+}
+.menu-bar ul li:hover .sub-menu-1 ul li a:hover{
+    color:aliceblue;
+}
+.heading{
+    background-color: rgb(59, 71, 177);
+    text-decoration: none;
+    color: azure ;
+}
+.heading ul{
+    display: inline-flex;
+    list-style: none;
+}
+.heading ul li{
+    text-align: center;
+    padding-right: 280px;
+}
+.nha{
+    
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+.sub-menu-2{
+    display: none;
+}
+.menu-bar ul li:hover .sub-menu-2{
+    display: block;
+    position: absolute;
+    background-color:lightskyblue;
+    margin-top: 12px;
+    margin-left: -5px;
+}
+.menu-bar ul li:hover .sub-menu-2 ul{
+    display: block;
+    margin: 10px;
+}
+.menu-bar ul li:hover .sub-menu-2 ul li{
+    width: 150px;
+    padding: 10px;
+    border-bottom: 1px dotted #fff;
+    background: transparent;
+    border-radius: 0;
+    text-align: left;
+}
+.menu-bar ul li:hover .sub-menu-2 ul li:last-child{
+    border-bottom: none;
+}
+.menu-bar ul li:hover .sub-menu-2 ul li a:hover{
+    color:aliceblue;
+}
+
+.azadi
+{
+    margin:15px;
+    margin-right:200px;
+}
+.hh1
+{
+    text-align: center;
+    font-size: 40px;
+}
+
+.hello ul{
+    display: inline-flex;
+    list-style: none;
+}
+.hello ul li{
+    padding: 50px;
+}
