@@ -6,3 +6,4 @@ Idea and vision of project:
 4.The patients can register complaints regarding malfunctioning of equipments which will be then reported to the hospital and Ministry.
 5.This will put the Hospital on alert and also notify the Ministry about the current scenario of the facilities at the Hospital.
 6.The users can also write an additional reveiw regarding the staff behaviour.
+Main Page : homePage
